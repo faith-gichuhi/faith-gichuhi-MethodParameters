@@ -20,9 +20,9 @@ public class ParrotTest {
      */
     @Test
     public void parrotTestPolly(){
-        String polly = "polly";
+        String input = "polly";
         String expected = "polly";
-        String actual = p.copy("hello");
+        String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
     }
 }
